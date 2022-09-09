@@ -1,4 +1,16 @@
 # Install instructions and how to use mvcli(x64) on arm64 with box64
+## Hardware
+- Raspberry Pi CM4 and IO Board with PCIE Connector
+- Marvell® 88SE9220/9230 PCIe to SATA 6Gb/s Controllers RAID 0/1/10 HyperDuo
+- Tested: 88SE9230
+- Untested: 88SE9220
+## Requirements
+- git
+- build-essential
+- cmake
+```
+sudo apt install git build-essential cmake
+```
 ## Box64 install instructions
 Based on original instructions: https://github.com/ptitSeb/box64/blob/main/docs/COMPILE.md#for-pi4
 
