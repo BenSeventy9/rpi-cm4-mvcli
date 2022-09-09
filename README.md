@@ -44,6 +44,7 @@ sudo BOX64_PATH=/usr/local/bin BOX64_LD_LIBRARY_PATH=/lib mvcli
 ```
 Output:
 ```
+~ $ sudo BOX64_PATH=/usr/local/bin BOX64_LD_LIBRARY_PATH=/lib mvcli
 Dynarec for ARM64, with extension: ASIMD CRC32 PageSize:4096
 Box64 with Dynarec v0.1.9 a3f63a1 built on Sep  6 2022 13:48:14
 BOX64_LD_LIBRARY_PATH: /lib/
@@ -116,6 +117,7 @@ locate       :Locate the specified PD.
 report       :report a conflicted virtual disk to OS.
 devmap       :Map device ID to device magic number in the OS.
 
+>
 ```
 This command is also possible if you don't need shell mode support:
 ```
@@ -137,7 +139,9 @@ Run:
 sudo BOX64_PATH=/usr/local/bin BOX64_LD_LIBRARY_PATH=/lib mvcli help
 ```
 Output:
-```Dynarec for ARM64, with extension: ASIMD CRC32 PageSize:4096
+```
+~ $ sudo BOX64_PATH=/usr/local/bin BOX64_LD_LIBRARY_PATH=/lib mvcli help
+Dynarec for ARM64, with extension: ASIMD CRC32 PageSize:4096
 Box64 with Dynarec v0.1.9 a3f63a1 built on Sep  6 2022 13:48:14
 BOX64_LD_LIBRARY_PATH: /lib/
 BOX64_PATH: /usr/local/bin/
@@ -198,4 +202,6 @@ set          :Set configuration parameters of VD, PD or HBA.
 import       :Import a virtual disk.
 devmap       :Map device ID to device magic number in the OS.
 pdflash      :Update disk fiwmware.
+
+~ $
 ```
