@@ -27,7 +27,8 @@ If it's the first install, you also need:
 ```
 sudo systemctl restart systemd-binfmt
 ```
-## Mvcli install and usage instructions (With shell mode support):
+## Mvcli install and usage instructions
+## Solution 1 WITH shell mode support:
 - Found here: https://www.dell.com/support/home/de-ch/drivers/driversdetails?driverid=67hr5
 ### Install:
 ```
@@ -123,7 +124,7 @@ This command is also possible if you don't need shell mode support:
 ```
 sudo BOX64_PATH=/usr/local/bin BOX64_LD_LIBRARY_PATH=/lib mvcli help
 ```
-## Mvcli install and usage instructions (Without shell mode support):
+## Solution 2 WITHOUT shell mode support:
 - Found here: https://datacentersupport.lenovo.com/nz/en/downloads/DS547073
 ### Install:
 ```
