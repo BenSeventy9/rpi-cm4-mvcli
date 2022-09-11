@@ -11,7 +11,7 @@
 ```
 sudo apt install git build-essential cmake
 ```
-## Box64 install instructions
+# Box64 install instructions
 Based on original instructions: https://github.com/ptitSeb/box64/blob/main/docs/COMPILE.md#for-pi4
 
 Warning, you need a 64bit OS:
@@ -27,7 +27,7 @@ If it's the first install, you also need:
 ```
 sudo systemctl restart systemd-binfmt
 ```
-## Mvcli install and usage instructions
+# Mvcli install and usage instructions
 ## Solution 1 WITH shell mode support:
 - Found here: https://www.dell.com/support/home/de-ch/drivers/driversdetails?driverid=67hr5
 ### Install:
